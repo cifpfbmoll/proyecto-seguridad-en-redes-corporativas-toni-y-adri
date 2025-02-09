@@ -64,3 +64,13 @@ proyecto-seguridad-en-redes-corporativas-toni-y-adri created by GitHub Classroom
 * Deshabilitar X11forwarding.
 * Chroot (Bloquear usuarios a sus directorios de inicio).
 * Habilitar el doble factor de autenticación en el servicio SSH, configuración y compruebación de su correcto funcionamiento.
+
+## Sprint 5 - Escaneo de vulnerabilidades
+* Descargar, instalar y configurar la máquina virtual de Metasploitable2.
+* Instalar nmap en el servidor Ubuntu.
+* Comprobar la versión de nmap instalada.
+* Ejecutar un escaneo de puertos abiertos en Metasploitable y el servidor Ubuntu.
+* Ejecutar un escaneo de los puertos mas comunmente utilizados.
+* Ejecutar el script vuln en ambas máquinas.
+* Ejecutar un escaneo agresivo en ambas maquinas.
+* Realizar un escaneo de dispositivos en la red local de casa.
