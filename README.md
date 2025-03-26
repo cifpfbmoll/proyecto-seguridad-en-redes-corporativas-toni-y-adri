@@ -74,3 +74,29 @@ proyecto-seguridad-en-redes-corporativas-toni-y-adri created by GitHub Classroom
 * Ejecutar el script vuln en ambas máquinas.
 * Ejecutar un escaneo agresivo en ambas maquinas.
 * Realizar un escaneo de dispositivos en la red local de casa.
+
+## Sprint 6 - Seguridad perimetral con pfSense
+### Instalación y configuración inicial:
+* Instalar pfSense 2.7.2 en una máquina virtual con tres interfaces de red.
+* Configuración de IPs fijas para LAN Empleados y LAN DMZ.
+* Configuración de un servidor DHCP en LAN Empleados (rango 10.0.2.100 - 10.0.2.200).
+* Configurar el servidor asignando su tarjeta de red a la LAN DMZ con una IP fija.
+* Configurar el equipo del empleado simulando un Windows en la LAN Empleados, obteniendo IP mediante DHCP.
+
+### Comprobaciones iniciales:
+* Verificar si el servidor web y SSH son accesibles desde el exterior.
+* Comprobar si el servidor tiene acceso a internet.
+* Verificar si el equipo de los empleados tiene acceso a internet.
+* Comprobar si el servidor web es accesible desde los empleados y viceversa.
+
+### Configuración de reglas en pfSense:
+* Permitir acceso a internet para el servidor.
+* Permitir acceso a internet para los empleados.
+* Configurar el acceso al servidor web.
+* Configurar acceso seguro a SSH.
+* Crear reglas de aislamiento: Bloquear tráfico directo entre empleados y el servidor, en ambas direcciones.
+
+### Configuración de seguridad adicional:
+* Preparación de reglas de bloqueo ante ciberataques.
+* Mitigación de ataques DoS.
+* Implementación de acceso restringido a SSH.
