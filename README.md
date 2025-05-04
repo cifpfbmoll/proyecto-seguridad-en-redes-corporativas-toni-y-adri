@@ -100,3 +100,17 @@ proyecto-seguridad-en-redes-corporativas-toni-y-adri created by GitHub Classroom
 * Preparación de reglas de bloqueo ante ciberataques.
 * Mitigación de ataques DoS.
 * Implementación de acceso restringido a SSH.
+
+## Sprint 7 - IDS y VPN con pfSense
+
+### Implementación de IDS/IPS:
+* Instalar IDS/IPS Suricata siguiendo la guía proporcionada.
+* Aplicar las reglas de la comunidad Snort para detección de amenazas.
+
+### Simulación de ciberataque:
+* Realizar un ataque DoS sobre el servidor Web antes de habilitar Suricata.
+* Observar el tráfico generado durante el ataque para posterior análisis con el IDS.
+
+### Configuración de VPN:
+* Habilitar el servidor VPN en pfSense (tecnología a elección: OpenVPN, IPSec, etc.) siguiendo la guía correspondiente.
+* Configurar el cliente OVPN para conectarse correctamente al servidor configurado.
